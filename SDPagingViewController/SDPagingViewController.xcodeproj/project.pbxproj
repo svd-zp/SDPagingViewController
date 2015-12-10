@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC14BFE31C19C4EF003B3C2E /* StaticVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC14BFE21C19C4EF003B3C2E /* StaticVC.swift */; };
+		BC14BFE51C19C535003B3C2E /* SDLoopPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC14BFE41C19C535003B3C2E /* SDLoopPicker.swift */; };
 		BCE8CF441C187CF900E34A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8CF431C187CF900E34A9A /* AppDelegate.swift */; };
 		BCE8CF461C187CF900E34A9A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8CF451C187CF900E34A9A /* RootViewController.swift */; };
 		BCE8CF481C187CF900E34A9A /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE8CF471C187CF900E34A9A /* DataViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC14BFE21C19C4EF003B3C2E /* StaticVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticVC.swift; sourceTree = "<group>"; };
+		BC14BFE41C19C535003B3C2E /* SDLoopPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDLoopPicker.swift; sourceTree = "<group>"; };
 		BCE8CF401C187CF900E34A9A /* SDPagingViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDPagingViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE8CF431C187CF900E34A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCE8CF451C187CF900E34A9A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC14BFE11C19C4A2003B3C2E /* LoopPicker */ = {
+			isa = PBXGroup;
+			children = (
+				BC14BFE21C19C4EF003B3C2E /* StaticVC.swift */,
+				BC14BFE41C19C535003B3C2E /* SDLoopPicker.swift */,
+			);
+			name = LoopPicker;
+			sourceTree = "<group>";
+		};
 		BCE8CF371C187CF900E34A9A = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +71,7 @@
 		BCE8CF421C187CF900E34A9A /* SDPagingViewController */ = {
 			isa = PBXGroup;
 			children = (
+				BC14BFE11C19C4A2003B3C2E /* LoopPicker */,
 				BCE8CF431C187CF900E34A9A /* AppDelegate.swift */,
 				BCE8CF451C187CF900E34A9A /* RootViewController.swift */,
 				BCE8CF471C187CF900E34A9A /* DataViewController.swift */,
@@ -141,7 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC14BFE31C19C4EF003B3C2E /* StaticVC.swift in Sources */,
 				BCE8CF461C187CF900E34A9A /* RootViewController.swift in Sources */,
+				BC14BFE51C19C535003B3C2E /* SDLoopPicker.swift in Sources */,
 				BCE8CF4A1C187CF900E34A9A /* ModelController.swift in Sources */,
 				BCE8CF481C187CF900E34A9A /* DataViewController.swift in Sources */,
 				BCE8CF441C187CF900E34A9A /* AppDelegate.swift in Sources */,
@@ -292,6 +308,7 @@
 				BCE8CF581C187CF900E34A9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
